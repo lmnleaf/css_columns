@@ -1,0 +1,99 @@
+body {
+
+}
+
+img {
+  max-width: 50%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #123066;
+  font-family: sans-serif;
+}
+
+div {
+  color: #123066;
+  background: #585d66;
+  border: 1px solid #93969e;
+  padding: 5px;
+  height: 30px;
+}
+
+h3 {
+  text-align: center;
+  color: #123066;
+  border-bottom: 1px solid #93969e;
+  padding: 5px;
+  background: #585d66;
+}
+
+/* Code Under This Line */
+
+.columns:before,
+.columns:after {
+  content:"";
+  display:table;
+}
+.columns:after {
+  clear:both;
+}
+.columns {
+  zoom:1;
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+}
+
+
+/* CODE UNDER THIS LINE */
+
+.two.columns .column, .column-two {
+  width: 50%;
+}
+
+.columns.three .column, .column-three {
+  width: 33.33333%;
+}
+
+.four.columns .column, .column-four {
+  width: 25%;
+}
+/*when the selector columns also has a class of four on it, .four.columns, then we get the styling listed */
+
+.five.columns .column, .column-five {
+  width: 20%
+}
+
+.six.columns .column, .column-six {
+  width: 16.6666667%
+}
+
+.seven.columns .column, .column-seven {
+  width: 14.2857143%
+}
+
+.eight.columns .column, .column-eight {
+  width: 12.5%
+}
+
+.nine.columns .column, .column-nine {
+  width: 11.1111111%
+}
+
+.ten.columns .column, .column-ten {
+  width: 10%
+}
+
+.eleven.columns .column, .column-eleven {
+  width: 9.09090909%
+}
+
+.twelve.columns .column, .column-twelve {
+  width: 8.3333333%
+}
